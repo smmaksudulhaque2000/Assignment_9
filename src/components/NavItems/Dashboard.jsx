@@ -89,7 +89,7 @@ const Dashboard = () => {
 
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white rounded-lg w-1/3 p-8">
+          <div className="bg-white rounded-lg w-3/4 lg:w-2/4 p-8">
             <h2 className="text-2xl font-bold mb-4 text-gray-600">
               Update Profile
             </h2>
